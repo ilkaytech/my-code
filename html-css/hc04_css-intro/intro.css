@@ -1,0 +1,20 @@
+/* Universal selector */
+/* Tüm elementleri seçer ve değiştirir.Tüm elementlerin dış
+boşluklarını sıfırladık */
+* {
+  margin: 0;
+  /* Tüm elementleri seçer ve değiştirir.Tüm elementlerin iç
+boşluklarını sıfırladık */
+  padding: 0;
+  color: tomato;
+}
+.images {
+  width: 400px;
+}
+img {
+  width: 100px;
+  border-color: #ece;
+  border-width: 6px;
+  border-style: solid;
+  border-style: inset;
+}
