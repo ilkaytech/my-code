@@ -5,26 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/938c055e7e.js"
+      crossorigin="anonymous"
+    ></script>
     <title>My Website</title>
   </head>
-  <body>
-    <!-- Resim Section -->
+  <body style="text-align: center">
+    <!-- Navbar Section -->
+    <nav>
+      <a href="#">Home</a> | <a href="#">Products </a> | <a href="#">About</a> |
+      <a href="#">Contact</a>
+    </nav>
+    <!-- End Navbar Section -->
+    <!-- Picture Section -->
     <section id="picture">
       <div class="picture container">
         <div>
-          <h1>Hi there 👋 İlkay here!</h1>
-          <h1>I'm a Full Stack Developer.</h1>
-          <h1>I loves coding...</h1>
+          <h1>Hi there 👋 İlkay here!<span></span></h1>
+          <h1>I'm a Full Stack Developer.<span></span></h1>
+          <h1>I loves coding...<span></span></h1>
           <a href="#" type="button" class="cta">My Proje</a>
         </div>
       </div>
     </section>
     <!-- End Resim Section -->
+    <!-- About Section -->
+    <section id="about">
+      <div class="about-container">
+        <div class="about-top">
+          <h1 class="about-title">About<span>Me</span></h1>
+          <h2>Full Stak Developer</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            aliquam illo ratione molestias, minima quasi repellendus neque animi
+            vitae eum at culpa unde, dolorem reprehenderit, atque temporibus
+            fugit quisquam itaque laudantium. Tenetur, dignissimos similique
+            alias, maxime adipisci quos aliquid facilis doloribus rem explicabo
+            itaque aliquam quae cum eum, aperiam libero!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
     <!-- My Project Section -->
-    <section id="myproje">
-      <div class="myproje container">
-        <div class="myproje-top">
-          <h1 class="myproje-title">Serv<span>My</span>Projet</h1>
+    <section id="myproject">
+      <div class="myproject-container">
+        <div class="myproject-top">
+          <h1 class="myproject-title">My<span>Project</span></h1>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
             deleniti maiores pariatur assumenda quas magni et, doloribus quod
@@ -32,38 +60,81 @@
             atque molestias voluptatum explicabo!
           </p>
         </div>
-        <div class="image">
-            <img src="./img/5.jpeg"alt=""/>
-            <img src="./img/3.jpeg"alt=""/>
-            <img src="./img/6.jpeg"alt=""/>
-            
-          </div>
+        <figure class="image">
+          <img src="./img/5.jpeg" alt="" />
+          <img src="./img/3.jpeg" alt="" />
+          <img src="./img/6.jpeg" alt="" />
+        </figure>
+      </div>
     </section>
     <!-- End My Project Section -->
-    <!-- About Section -->
-    <section id="about">
-      <div class="about container">
-        <div class="col-left">
-          <div class="about-img">
-            <img src="./img/img-2.png" alt="img" />
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact-container">
+        <div class="contact-top">
+          <h1 class="contact-title">Contact <span>info</span></h1>
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/ilkaytech/"
+              ><i class="fa-brands fa-linkedin"> </i
+            ></a>
+            <a href="https://www.instagram.com/ilkaytech/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://twitter.com/ilkaytech"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="https://github.com/ilkaytech"
+              ><i class="fa-brands fa-github"></i
+            ></a>
           </div>
-        </div>
-        <div class="col-right">
-          <h1 class="section-title">About <span>me</span></h1>
-          <h2>Front End Developer</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Asperiores, velit alias eius non illum beatae atque repellat ratione
-            qui veritatis repudiandae adipisci maiores. At inventore
-            necessitatibus deserunt exercitationem cumque earum omnis ipsum rem
-            accusantium quis, quas quia, accusamus provident suscipit magni!
-            Expedita sint ad dolore, commodi labore nihil velit earum ducimus
-            nulla quae nostrum fugit aut, deserunt reprehenderit libero enim!
-          </p>
-          <a href="#" class="cta">Download Resume</a>
         </div>
       </div>
     </section>
-    <!-- End About Section -->
+    <!-- End Contact Section -->
+    <!-- Form Section -->
+    <section id="contact">
+      <div class="contact-container">
+        <div class="contact-top">
+          <h1 class="contact-title">Contact<span>Me</span></h1>
+        </div>
+      </div>
+      <form action="" class="form">
+        <div>
+          <input
+            class="form-input input-width"
+            type="text"
+            id="username"
+            name=""
+            placeholder="User Name"
+          /><br />
+          <input
+            class="form-input input-width"
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Your E-mail"
+          /><br />
+          <textarea
+            class="form-input"
+            name=""
+            id=""
+            cols="5"
+            rows="5"
+            placeholder="Your mesage"
+          ></textarea
+          ><br />
+          <button class="form-input">SEND</button>
+        </div>
+      </form>
+    </section>
+    <!-- End Form Section -->
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer-container">
+        <div class="brand"></div>
+        <p>Copyright © 2023 İlkaytech. All rights reserved</p>
+      </div>
+    </section>
+    <!-- End Footer -->
   </body>
 </html>
