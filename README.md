@@ -1,2 +1,9 @@
-# my-code
-Bu benim kişisel çalışma alanım
+# One page Portfolio Website (HTML CSS Project)
+
+---
+
+### Made with ❤️ by [İlkaytech](https://www.instagram.com/ilkaytech/)
+
+---
+
+## Other projects
