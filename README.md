@@ -2,7 +2,7 @@
 
 ---
 
-### Made with ❤️ by [İlkaytech](https://ilkaytech.github.io/my-code/)
+### Made with ❤️ by [İlkaytech](https://ilkaytech.)
 
 ---
 
